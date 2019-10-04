@@ -211,7 +211,7 @@ define([
                     this._setDrawDefaultSymbols();
                 })));
                 this.own(on(this.helpImage, 'click', lang.hitch(this, function() {
-                    var win = window.open("/Widget/Rolmaat/help/index.html", "_blank");
+                    var win = window.open("/Widget/Rolmaat/help/nl/index.html", "_blank");
 					win.focus();
                 })));
             },
